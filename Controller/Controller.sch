@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.0.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -59,6 +59,7 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
@@ -72,6 +73,7 @@
 <layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="IDFDebug" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
@@ -4610,6 +4612,49 @@ diameter 5 mm, grid 2.54 mm</description>
 <rectangle x1="-1.651" y1="-0.127" x2="-0.889" y2="0.635" layer="51"/>
 <rectangle x1="0" y1="1.6002" x2="0.4318" y2="3.4798" layer="21"/>
 </package>
+<package name="1X03">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-3.175" y1="1.27" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="1.27" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-1.27" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
+<pad name="1" x="-2.54" y="0" drill="1.016" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1.016" rot="R90"/>
+<pad name="3" x="2.54" y="0" drill="1.016" rot="R90"/>
+<text x="-3.8862" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.81" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+</package>
+<package name="1X03-CLEANBIG">
+<pad name="1" x="-2.54" y="0" drill="1.016" diameter="1.6764" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1.016" diameter="1.6764" rot="R90"/>
+<pad name="3" x="2.54" y="0" drill="1.016" diameter="1.6764" rot="R90"/>
+<text x="-3.8862" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.81" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CPOL-US">
@@ -4623,6 +4668,17 @@ diameter 5 mm, grid 2.54 mm</description>
 <rectangle x1="-1.872" y1="0.287" x2="-1.745" y2="1.176" layer="94"/>
 <pin name="+" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
+<symbol name="PINHD3">
+<wire x1="-6.35" y1="-5.08" x2="1.27" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="1.27" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="-6.35" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="5.08" x2="-6.35" y2="-5.08" width="0.4064" layer="94"/>
+<text x="-6.35" y="5.715" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="3" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -5813,6 +5869,34 @@ diameter 5 mm, grid 2.54 mm</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="PINHD-1X3" prefix="JP" uservalue="yes">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="A" symbol="PINHD3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X03">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CB" package="1X03-CLEANBIG">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="SparkFun-Passives">
@@ -6206,6 +6290,59 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </deviceset>
 </devicesets>
 </library>
+<library name="sparkfun-usb-a">
+<packages>
+<package name="USB_4UCON_18666_318">
+<smd name="USB-" x="0" y="1" dx="4" dy="1" layer="1"/>
+<smd name="USB+" x="0" y="-1" dx="4" dy="1" layer="1"/>
+<smd name="USB_5V" x="0" y="3.5" dx="4" dy="1" layer="1"/>
+<smd name="USB_GND" x="0" y="-3.5" dx="4" dy="1" layer="1"/>
+<wire x1="-14.8" y1="6.57" x2="2" y2="6.57" width="0.127" layer="21"/>
+<wire x1="2" y1="6.57" x2="2" y2="-6.57" width="0.127" layer="21"/>
+<wire x1="2" y1="-6.57" x2="-14.8" y2="-6.57" width="0.127" layer="21"/>
+<wire x1="-14.8" y1="-6.57" x2="-14.8" y2="6.57" width="0.127" layer="21"/>
+<text x="-5.5" y="2.5" size="1.27" layer="21">5V</text>
+<text x="-6.5" y="-4" size="1.27" layer="21">GND</text>
+<text x="-13.5" y="7.5" size="1.27" layer="25">&gt;Name</text>
+<hole x="-4.5" y="6.5" drill="2.8"/>
+<hole x="-4.5" y="-6.5" drill="2.8"/>
+<pad name="P$1" x="-4.5" y="6.5" drill="2.8"/>
+<pad name="P$2" x="-4.5" y="-6.5" drill="2.8"/>
+</package>
+</packages>
+<symbols>
+<symbol name="USB_A">
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<pin name="USB_5V" x="10.16" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="USB_GND" x="10.16" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="USB+" x="10.16" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="USB-" x="10.16" y="-5.08" visible="pin" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SPARKFUN_USB_A">
+<gates>
+<gate name="G$1" symbol="USB_A" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="USB_4UCON_18666_318">
+<connects>
+<connect gate="G$1" pin="USB+" pad="USB+"/>
+<connect gate="G$1" pin="USB-" pad="USB-"/>
+<connect gate="G$1" pin="USB_5V" pad="USB_5V"/>
+<connect gate="G$1" pin="USB_GND" pad="USB_GND"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6223,15 +6360,12 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="KIT"/>
 <part name="C2" library="adafruit" deviceset="CPOL-US" device="E2-5"/>
 <part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="KIT"/>
+<part name="U$1" library="sparkfun-usb-a" deviceset="SPARKFUN_USB_A" device=""/>
+<part name="JP2" library="adafruit" deviceset="PINHD-1X3" device="CB"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="76.2" y="38.1" size="1.778" layer="91">GND</text>
-<text x="55.88" y="38.1" size="1.778" layer="91">VCC</text>
-<text x="68.58" y="38.1" size="1.778" layer="91">DATA+</text>
-<text x="60.96" y="38.1" size="1.778" layer="91">DATA-</text>
-<rectangle x1="55.88" y1="30.48" x2="81.28" y2="40.64" layer="95"/>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0.786075" y="0"/>
@@ -6242,6 +6376,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <instance part="R1" gate="G$1" x="101.6" y="68.58" rot="R90"/>
 <instance part="C2" gate="G$1" x="119.38" y="73.66"/>
 <instance part="R2" gate="G$1" x="185.42" y="132.08" rot="R180"/>
+<instance part="U$1" gate="G$1" x="68.58" y="17.78" rot="R90"/>
+<instance part="JP2" gate="A" x="203.2" y="132.08"/>
 </instances>
 <busses>
 </busses>
@@ -6253,6 +6389,9 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="88.9" y1="129.54" x2="88.9" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="50.8" x2="73.66" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="50.8" x2="73.66" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="USB+"/>
+<wire x1="73.66" y1="40.64" x2="71.12" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="40.64" x2="71.12" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -6274,22 +6413,18 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <net name="N$2" class="0">
 <segment>
 <wire x1="91.44" y1="53.34" x2="63.5" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="53.34" x2="63.5" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="53.34" x2="63.5" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="U1" gate="A" pin="D1+"/>
 <wire x1="81.28" y1="137.16" x2="91.44" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="137.16" x2="91.44" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="USB-"/>
+<wire x1="63.5" y1="35.56" x2="73.66" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="35.56" x2="73.66" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="U1" gate="A" pin="VCC"/>
-<wire x1="45.72" y1="137.16" x2="43.18" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="137.16" x2="35.56" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="137.16" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="53.34" x2="58.42" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="53.34" x2="58.42" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="137.16" x2="43.18" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="157.48" x2="114.3" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="157.48" x2="114.3" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="157.48" x2="165.1" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="157.48" x2="165.1" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="OUT"/>
@@ -6310,11 +6445,24 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="114.3" y1="88.9" x2="119.38" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="88.9" x2="119.38" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="+"/>
+<pinref part="U$1" gate="G$1" pin="USB_5V"/>
+<pinref part="U1" gate="A" pin="VCC"/>
+<wire x1="45.72" y1="137.16" x2="35.56" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="137.16" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="53.34" x2="58.42" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="53.34" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="27.94" x2="63.5" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="157.48" x2="35.56" y2="137.16" width="0.1524" layer="91"/>
+<junction x="35.56" y="137.16"/>
+<wire x1="165.1" y1="137.16" x2="190.5" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="137.16" x2="193.04" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="1"/>
+<wire x1="193.04" y1="134.62" x2="200.66" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<wire x1="78.74" y1="55.88" x2="78.74" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="55.88" x2="78.74" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="55.88" x2="119.38" y2="55.88" width="0.1524" layer="91"/>
 <junction x="78.74" y="55.88"/>
 <pinref part="U1" gate="A" pin="GND"/>
@@ -6326,8 +6474,9 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="40.64" y1="132.08" x2="40.64" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="55.88" x2="78.74" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="-"/>
-<wire x1="165.1" y1="111.76" x2="165.1" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="111.76" x2="165.1" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="GND"/>
+<wire x1="165.1" y1="104.14" x2="165.1" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="109.22" x2="106.68" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="109.22" x2="106.68" y2="55.88" width="0.1524" layer="91"/>
 <junction x="106.68" y="55.88"/>
@@ -6341,6 +6490,14 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <pinref part="C2" gate="G$1" pin="-"/>
 <wire x1="119.38" y1="68.58" x2="119.38" y2="55.88" width="0.1524" layer="91"/>
 <junction x="119.38" y="55.88"/>
+<pinref part="U$1" gate="G$1" pin="USB_GND"/>
+<wire x1="78.74" y1="33.02" x2="66.04" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="33.02" x2="66.04" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="104.14" x2="167.64" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="104.14" x2="193.04" y2="129.54" width="0.1524" layer="91"/>
+<junction x="165.1" y="104.14"/>
+<pinref part="JP2" gate="A" pin="3"/>
+<wire x1="193.04" y1="129.54" x2="200.66" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -6356,6 +6513,13 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <pinref part="U2" gate="A" pin="!CS"/>
 <wire x1="154.94" y1="132.08" x2="180.34" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="JP2" gate="A" pin="2"/>
+<wire x1="190.5" y1="132.08" x2="200.66" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
