@@ -280,49 +280,6 @@ Standard 8.5x11 US Letter frame</description>
 </library>
 <library name="adafruit">
 <packages>
-<package name="1X03">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="-3.175" y1="1.27" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="-1.27" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="1.27" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-1.27" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
-<pad name="1" x="-2.54" y="0" drill="1.016" rot="R90"/>
-<pad name="2" x="0" y="0" drill="1.016" rot="R90"/>
-<pad name="3" x="2.54" y="0" drill="1.016" rot="R90"/>
-<text x="-3.8862" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.81" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
-<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
-</package>
-<package name="1X03-CLEANBIG">
-<pad name="1" x="-2.54" y="0" drill="1.016" diameter="1.6764" rot="R90"/>
-<pad name="2" x="0" y="0" drill="1.016" diameter="1.6764" rot="R90"/>
-<pad name="3" x="2.54" y="0" drill="1.016" diameter="1.6764" rot="R90"/>
-<text x="-3.8862" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.81" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
-<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
-</package>
 <package name="R0402">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 chip</description>
@@ -5932,17 +5889,6 @@ diameter 5 mm, grid 2.54 mm</description>
 </package>
 </packages>
 <symbols>
-<symbol name="PINHD3">
-<wire x1="-6.35" y1="-5.08" x2="1.27" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="-5.08" x2="1.27" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="5.08" x2="-6.35" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-6.35" y1="5.08" x2="-6.35" y2="-5.08" width="0.4064" layer="94"/>
-<text x="-6.35" y="5.715" size="1.778" layer="95">&gt;NAME</text>
-<text x="-6.35" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="3" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
-</symbol>
 <symbol name="R-US">
 <wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
 <wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.2032" layer="94"/>
@@ -5972,34 +5918,6 @@ diameter 5 mm, grid 2.54 mm</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PINHD-1X3" prefix="JP" uservalue="yes">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<gates>
-<gate name="A" symbol="PINHD3" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="1X03">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-<connect gate="A" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="CB" package="1X03-CLEANBIG">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-<connect gate="A" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="R-US_" prefix="R" uservalue="yes">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, American symbol</description>
 <gates>
@@ -9097,8 +9015,7 @@ molded</description>
 <parts>
 <part name="TPS61230" library="TPS61230" deviceset="TPS61230" device="TPS61230"/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
-<part name="JP1" library="adafruit" deviceset="PINHD-1X3" device=""/>
-<part name="JP2" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
+<part name="JP2" library="SparkFun-Connectors" deviceset="M02" device="3.5MM" value="M023.5MM"/>
 <part name="R3" library="adafruit" deviceset="R-US_" device="0207/10" value="1M Ohm"/>
 <part name="C4" library="adafruit" deviceset="CPOL-US" device="E2.5-5" value="22uF"/>
 <part name="C5" library="adafruit" deviceset="CPOL-US" device="E2.5-5" value="22uF"/>
@@ -9106,6 +9023,9 @@ molded</description>
 <part name="C2" library="adafruit" deviceset="CPOL-US" device="E2.5-5" value="22uF"/>
 <part name="C6" library="adafruit" deviceset="CPOL-US" device="E2.5-5" value="22uF"/>
 <part name="C1" library="adafruit" deviceset="CPOL-US" device="E2.5-5" value="10nF"/>
+<part name="JP3" library="SparkFun-Connectors" deviceset="M02" device="3.5MM" value="M023.5MM"/>
+<part name="R1" library="adafruit" deviceset="R-US_" device="0207/10" value="402 kOhm"/>
+<part name="R2" library="adafruit" deviceset="R-US_" device="0207/10" value="100 kOhm"/>
 </parts>
 <sheets>
 <sheet>
@@ -9115,7 +9035,6 @@ molded</description>
 <instance part="TPS61230" gate="G$1" x="121.92" y="109.22"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
-<instance part="JP1" gate="A" x="228.6" y="109.22" rot="R180"/>
 <instance part="JP2" gate="G$1" x="22.86" y="109.22"/>
 <instance part="R3" gate="G$1" x="96.52" y="104.14" rot="R180"/>
 <instance part="C4" gate="G$1" x="71.12" y="91.44"/>
@@ -9124,6 +9043,9 @@ molded</description>
 <instance part="C2" gate="G$1" x="190.5" y="106.68"/>
 <instance part="C6" gate="G$1" x="190.5" y="83.82"/>
 <instance part="C1" gate="G$1" x="101.6" y="91.44"/>
+<instance part="JP3" gate="G$1" x="228.6" y="109.22" rot="R180"/>
+<instance part="R1" gate="G$1" x="165.1" y="101.6" rot="R270"/>
+<instance part="R2" gate="G$1" x="165.1" y="83.82" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -9131,12 +9053,10 @@ molded</description>
 <net name="N$1" class="0">
 <segment>
 <wire x1="63.5" y1="78.74" x2="71.12" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="1"/>
 <wire x1="71.12" y1="78.74" x2="101.6" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="78.74" x2="121.92" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="78.74" x2="190.5" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="78.74" x2="231.14" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="78.74" x2="231.14" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="78.74" x2="165.1" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="78.74" x2="190.5" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="86.36" x2="101.6" y2="78.74" width="0.1524" layer="91"/>
 <junction x="101.6" y="78.74"/>
 <pinref part="JP2" gate="G$1" pin="2"/>
@@ -9149,8 +9069,14 @@ molded</description>
 <wire x1="121.92" y1="91.44" x2="121.92" y2="78.74" width="0.1524" layer="91"/>
 <junction x="121.92" y="78.74"/>
 <pinref part="C6" gate="G$1" pin="-"/>
-<junction x="190.5" y="78.74"/>
 <pinref part="C1" gate="G$1" pin="-"/>
+<pinref part="JP3" gate="G$1" pin="2"/>
+<wire x1="220.98" y1="106.68" x2="208.28" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="106.68" x2="208.28" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="78.74" x2="190.5" y2="78.74" width="0.1524" layer="91"/>
+<junction x="190.5" y="78.74"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<junction x="165.1" y="78.74"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -9176,11 +9102,9 @@ molded</description>
 <segment>
 <pinref part="TPS61230" gate="G$1" pin="VOUT1"/>
 <wire x1="139.7" y1="109.22" x2="144.78" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="109.22" x2="190.5" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="109.22" x2="165.1" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="109.22" x2="190.5" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="109.22" x2="220.98" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="109.22" x2="220.98" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="111.76" x2="231.14" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="3"/>
 <pinref part="TPS61230" gate="G$1" pin="VOUT2"/>
 <wire x1="139.7" y1="109.22" x2="139.7" y2="104.14" width="0.1524" layer="91"/>
 <junction x="139.7" y="109.22"/>
@@ -9191,14 +9115,10 @@ molded</description>
 <junction x="144.78" y="109.22"/>
 <pinref part="C2" gate="G$1" pin="+"/>
 <junction x="190.5" y="109.22"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="TPS61230" gate="G$1" pin="FB"/>
-<pinref part="JP1" gate="A" pin="2"/>
-<wire x1="139.7" y1="99.06" x2="220.98" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="99.06" x2="231.14" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="165.1" y1="109.22" x2="165.1" y2="106.68" width="0.1524" layer="91"/>
+<junction x="165.1" y="109.22"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -9247,6 +9167,19 @@ molded</description>
 <pinref part="C5" gate="G$1" pin="+"/>
 <pinref part="C2" gate="G$1" pin="-"/>
 <wire x1="190.5" y1="96.52" x2="190.5" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="165.1" y1="96.52" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="TPS61230" gate="G$1" pin="FB"/>
+<wire x1="165.1" y1="93.98" x2="165.1" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="99.06" x2="154.94" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="99.06" x2="154.94" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="93.98" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
+<junction x="165.1" y="93.98"/>
 </segment>
 </net>
 </nets>

@@ -1336,12 +1336,11 @@ It has a reduced top mask to make it harder to install upside-down.</description
 <smd name="20" x="-1" y="2" dx="0.75" dy="0.3" layer="1" rot="R270"/>
 <text x="-2.6" y="-4.1" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="-2.5" y="-5.8" size="1.27" layer="25" font="vector">&gt;VALUE</text>
-<rectangle x1="-1.25" y1="-1.25" x2="1.25" y2="1.25" layer="1"/>
-<rectangle x1="-1.3" y1="-1.3" x2="1.3" y2="1.3" layer="29"/>
 <rectangle x1="-1.2" y1="0.4" x2="-0.4" y2="1.2" layer="31"/>
 <rectangle x1="0.4" y1="0.4" x2="1.2" y2="1.2" layer="31"/>
 <rectangle x1="0.4" y1="-1.2" x2="1.2" y2="-0.4" layer="31"/>
 <rectangle x1="-1.2" y1="-1.2" x2="-0.4" y2="-0.4" layer="31"/>
+<smd name="21" x="0" y="0" dx="2.413" dy="2.413" layer="1" rot="R180"/>
 </package>
 <package name="E7,5-16">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -5558,6 +5557,7 @@ diameter 5 mm, grid 2.54 mm</description>
 <pin name="VBAT1" x="22.86" y="2.54" length="middle" direction="out" rot="R180"/>
 <pin name="OUT2" x="22.86" y="10.16" length="middle" direction="out" rot="R180"/>
 <pin name="OUT1" x="22.86" y="12.7" length="middle" direction="out" rot="R180"/>
+<pin name="GND3" x="5.08" y="-22.86" length="middle" rot="R90"/>
 </symbol>
 <symbol name="CPOL-US">
 <wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
@@ -5585,6 +5585,7 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="CE" pad="17"/>
 <connect gate="G$1" pin="GND1" pad="10"/>
 <connect gate="G$1" pin="GND2" pad="11"/>
+<connect gate="G$1" pin="GND3" pad="21"/>
 <connect gate="G$1" pin="IN1" pad="18"/>
 <connect gate="G$1" pin="IN2" pad="19"/>
 <connect gate="G$1" pin="OUT1" pad="1"/>
@@ -6807,9 +6808,9 @@ diameter 5 mm, grid 2.54 mm</description>
 </classes>
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
-<part name="JP1" library="SparkFun-Connectors" deviceset="M02" device="PTH" value="M02PTH"/>
-<part name="JP2" library="SparkFun-Connectors" deviceset="M02" device="PTH" value="M02PTH"/>
-<part name="JP3" library="SparkFun-Connectors" deviceset="M02" device="PTH" value="M02PTH"/>
+<part name="JP1" library="SparkFun-Connectors" deviceset="M02" device="3.5MM" value="M023.5MM"/>
+<part name="JP2" library="SparkFun-Connectors" deviceset="M02" device="3.5MM" value="M023.5MM"/>
+<part name="JP3" library="SparkFun-Connectors" deviceset="M02" device="3.5MM" value="M023.5MM"/>
 <part name="C1" library="adafruit" deviceset="CPOL-US" device="E2.5-5" value="10uF"/>
 <part name="C2" library="adafruit" deviceset="CPOL-US" device="E2.5-5" value="10uF"/>
 <part name="LED1" library="SparkFun-LED" deviceset="LED" device="5MM"/>
@@ -6870,7 +6871,8 @@ diameter 5 mm, grid 2.54 mm</description>
 <wire x1="86.36" y1="96.52" x2="93.98" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="96.52" x2="116.84" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="96.52" x2="119.38" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="96.52" x2="154.94" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="96.52" x2="121.92" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="96.52" x2="154.94" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="96.52" x2="165.1" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="96.52" x2="203.2" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="96.52" x2="213.36" y2="96.52" width="0.1524" layer="91"/>
@@ -6916,6 +6918,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <junction x="93.98" y="96.52"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <junction x="86.36" y="96.52"/>
+<pinref part="IC1" gate="G$1" pin="GND3"/>
+<wire x1="121.92" y1="99.06" x2="121.92" y2="96.52" width="0.1524" layer="91"/>
+<junction x="121.92" y="96.52"/>
 </segment>
 </net>
 <net name="N$5" class="0">
