@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -20053,7 +20053,12 @@ FCI SFV4R-1STE1LF</description>
 <smd name="20" x="-1" y="2" dx="0.75" dy="0.3" layer="1" rot="R270"/>
 <text x="-2.6" y="-4.1" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="-2.5" y="-5.8" size="1.27" layer="25" font="vector">&gt;VALUE</text>
-<smd name="GND3" x="0" y="0" dx="2.286" dy="2.286" layer="1" rot="R90"/>
+<rectangle x1="-1.25" y1="-1.25" x2="1.25" y2="1.25" layer="1"/>
+<rectangle x1="-1.3" y1="-1.3" x2="1.3" y2="1.3" layer="29"/>
+<rectangle x1="-1.2" y1="0.4" x2="-0.4" y2="1.2" layer="31"/>
+<rectangle x1="0.4" y1="0.4" x2="1.2" y2="1.2" layer="31"/>
+<rectangle x1="0.4" y1="-1.2" x2="1.2" y2="-0.4" layer="31"/>
+<rectangle x1="-1.2" y1="-1.2" x2="-0.4" y2="-0.4" layer="31"/>
 </package>
 <package name="SOT23">
 <description>&lt;b&gt;SOT-23&lt;/b&gt;</description>
@@ -36315,7 +36320,6 @@ Source: http://focus.ti.com/lit/ml/mpds029b/mpds029b.pdf / slma002.pdf</descript
 <pin name="VBAT1" x="22.86" y="2.54" length="middle" direction="out" rot="R180"/>
 <pin name="OUT2" x="22.86" y="10.16" length="middle" direction="out" rot="R180"/>
 <pin name="OUT1" x="22.86" y="12.7" length="middle" direction="out" rot="R180"/>
-<pin name="GND3" x="5.08" y="-22.86" length="middle" direction="pwr" rot="R90"/>
 </symbol>
 <symbol name="RESET_SUPERVISOR">
 <wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
@@ -51201,7 +51205,6 @@ Ultra-small 8-bit PIC micros in SOT-23-6 and SOIC</description>
 <connect gate="G$1" pin="CE" pad="17"/>
 <connect gate="G$1" pin="GND1" pad="10"/>
 <connect gate="G$1" pin="GND2" pad="11"/>
-<connect gate="G$1" pin="GND3" pad="GND3"/>
 <connect gate="G$1" pin="IN1" pad="18"/>
 <connect gate="G$1" pin="IN2" pad="19"/>
 <connect gate="G$1" pin="OUT1" pad="1"/>
