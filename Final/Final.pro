@@ -1,15 +1,15 @@
 EAGLE AutoRouter Statistics:
 
-Job           : C:/Users/cutnop/Documents/GitHub/Solar-USB-charger/Final/Final.brd
+Job           : C:/Users/PC/Documents/GitHub/Solar-USB-charger/Final/Final.brd
 
-Start at      : 09:21:44 (11/20/2014)
-End at        : 09:21:46 (11/20/2014)
+Start at      : 19:09:37 (11/20/2014)
+End at        : 19:09:40 (11/20/2014)
 Elapsed time  : 00:00:00
 
-Signals       :    21   RoutingGrid: 25 mil  Layers: 2
-Connections   :    48   predefined:  47 ( 4 Vias )
+Signals       :    28   RoutingGrid: 25 mil  Layers: 2
+Connections   :    88   predefined:  86 ( 8 Vias )
 
-Router memory :   149984
+Router memory :   154760
 
 Passname          :     Route Optimize1 Optimize2 Optimize3 Optimize4
 
@@ -18,8 +18,8 @@ Number of Ripups  :         0         0         0         0         0
 max. Level        :         0         0         0         0         0
 max. Total        :         0         0         0         0         0
 
-Routed            :         1         1         1         1         1
-Vias              :         1         0         1         1         1
+Routed            :         2         2         2         2         2
+Vias              :         1         1         0         0         0
 Resolution        :   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 
 Final             : 100.0% finished
