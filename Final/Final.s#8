@@ -12178,6 +12178,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="BATT" library="adafruit" deviceset="JST_2PIN" device="-SMT-RA"/>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
+<part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12223,6 +12224,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <instance part="GND6" gate="1" x="160.02" y="215.9"/>
 <instance part="BATT" gate="G$1" x="177.8" y="205.74" rot="MR180"/>
 <instance part="SUPPLY5" gate="G$1" x="175.26" y="233.68"/>
+<instance part="SUPPLY6" gate="G$1" x="271.78" y="241.3"/>
 </instances>
 <busses>
 </busses>

@@ -15161,17 +15161,14 @@ at 27/07/2012 14:20:03</description>
 <part name="R17" library="adafruit" deviceset="R-US_" device="0207/10" value="24.9 kOhm"/>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
-<part name="R18" library="adafruit" deviceset="R-US_" device="0207/10" value="100 kOhm"/>
 <part name="R19" library="adafruit" deviceset="R-US_" device="0207/10" value="100 kOhm"/>
 <part name="C10" library="adafruit" deviceset="CPOL-US" device="E2.5-5" value="0.1 uF"/>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C11" library="adafruit" deviceset="CPOL-US" device="E2.5-5" value="150 uF"/>
-<part name="C12" library="adafruit" deviceset="CPOL-US" device="E2.5-5" value="150 uF"/>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND19" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="GND20" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15251,17 +15248,14 @@ at 27/07/2012 14:20:03</description>
 <instance part="R17" gate="G$1" x="134.62" y="55.88" rot="R270"/>
 <instance part="GND15" gate="1" x="134.62" y="43.18"/>
 <instance part="SUPPLY13" gate="G$1" x="177.8" y="71.12"/>
-<instance part="R18" gate="G$1" x="154.94" y="60.96"/>
 <instance part="R19" gate="G$1" x="154.94" y="53.34"/>
 <instance part="C10" gate="G$1" x="33.02" y="81.28"/>
 <instance part="GND16" gate="1" x="33.02" y="71.12"/>
 <instance part="C11" gate="G$1" x="142.24" y="88.9"/>
-<instance part="C12" gate="G$1" x="142.24" y="121.92"/>
 <instance part="GND17" gate="1" x="142.24" y="78.74"/>
 <instance part="SUPPLY14" gate="G$1" x="363.22" y="142.24"/>
 <instance part="GND18" gate="1" x="266.7" y="116.84"/>
 <instance part="GND19" gate="1" x="281.94" y="50.8"/>
-<instance part="GND20" gate="1" x="142.24" y="109.22"/>
 </instances>
 <busses>
 </busses>
@@ -15436,11 +15430,6 @@ at 27/07/2012 14:20:03</description>
 <pinref part="C11" gate="G$1" pin="-"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 <wire x1="142.24" y1="83.82" x2="142.24" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND20" gate="1" pin="GND"/>
-<pinref part="C12" gate="G$1" pin="-"/>
-<wire x1="142.24" y1="111.76" x2="142.24" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -15724,14 +15713,10 @@ at 27/07/2012 14:20:03</description>
 <junction x="386.08" y="218.44"/>
 </segment>
 <segment>
-<pinref part="R18" gate="G$1" pin="2"/>
 <pinref part="SUPPLY13" gate="G$1" pin="5V"/>
-<wire x1="160.02" y1="60.96" x2="177.8" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="60.96" x2="177.8" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="53.34" x2="177.8" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="R19" gate="G$1" pin="2"/>
 <wire x1="160.02" y1="53.34" x2="177.8" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="53.34" x2="177.8" y2="60.96" width="0.1524" layer="91"/>
-<junction x="177.8" y="60.96"/>
 </segment>
 <segment>
 <pinref part="C10" gate="G$1" pin="+"/>
@@ -15817,15 +15802,6 @@ at 27/07/2012 14:20:03</description>
 <wire x1="129.54" y1="60.96" x2="134.62" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$25" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="~FAULT2"/>
-<wire x1="129.54" y1="66.04" x2="144.78" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="66.04" x2="144.78" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="R18" gate="G$1" pin="1"/>
-<wire x1="144.78" y1="60.96" x2="149.86" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$26" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="~FAULT1"/>
@@ -15848,16 +15824,6 @@ at 27/07/2012 14:20:03</description>
 <pinref part="U$1" gate="G$1" pin="VBUS"/>
 <wire x1="312.42" y1="71.12" x2="185.42" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="71.12" x2="185.42" y2="96.52" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$28" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="OUT2"/>
-<wire x1="129.54" y1="71.12" x2="134.62" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="71.12" x2="134.62" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="132.08" x2="142.24" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="C12" gate="G$1" pin="+"/>
-<wire x1="142.24" y1="132.08" x2="142.24" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$29" class="0">

@@ -130,6 +130,9 @@
 <wire x1="58.09" y1="0" x2="58.09" y2="81.27" width="0" layer="20"/>
 <wire x1="58.09" y1="81.27" x2="0" y2="81.27" width="0" layer="20"/>
 <wire x1="0" y1="81.27" x2="0" y2="0" width="0" layer="20"/>
+<text x="45.72" y="15.24" size="1.778" layer="25" rot="R90">Solar Cell Phone Charger</text>
+<text x="49.53" y="40.64" size="1.778" layer="25" rot="R270">http://cutnop.github.io/
+Solar-USB-charger/</text>
 </plain>
 <libraries>
 <library name="adafruit">
@@ -2531,4 +2534,10 @@ design rules under a new name.</description>
 </signals>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
