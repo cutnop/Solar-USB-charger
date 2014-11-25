@@ -15637,7 +15637,7 @@ at 27/07/2012 14:20:03</description>
 <instance part="TPS2513" gate="G$1" x="320.04" y="132.08"/>
 <instance part="U2" gate="A" x="317.5" y="203.2"/>
 <instance part="IC1" gate="G$1" x="129.54" y="200.66"/>
-<instance part="U3" gate="G$1" x="7.62" y="241.3" rot="R180"/>
+<instance part="U3" gate="G$1" x="10.16" y="246.38" rot="R180"/>
 <instance part="J1" gate="G$1" x="15.24" y="256.54"/>
 <instance part="U$1" gate="G$1" x="314.96" y="68.58"/>
 <instance part="D1" gate="G$1" x="25.4" y="264.16"/>
@@ -15739,11 +15739,6 @@ at 27/07/2012 14:20:03</description>
 <pinref part="C2" gate="G$1" pin="-"/>
 <wire x1="45.72" y1="254" x2="35.56" y2="254" width="0.1524" layer="91"/>
 <junction x="35.56" y="254"/>
-</segment>
-<segment>
-<pinref part="U3" gate="G$1" pin="GND"/>
-<pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="10.16" y1="233.68" x2="22.86" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
@@ -15887,6 +15882,12 @@ at 27/07/2012 14:20:03</description>
 <pinref part="GND17" gate="1" pin="GND"/>
 <wire x1="142.24" y1="83.82" x2="142.24" y2="81.28" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="GND"/>
+<pinref part="GND2" gate="1" pin="GND"/>
+<wire x1="12.7" y1="238.76" x2="22.86" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="238.76" x2="22.86" y2="236.22" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -15903,7 +15904,7 @@ at 27/07/2012 14:20:03</description>
 <pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
 <wire x1="45.72" y1="264.16" x2="45.72" y2="269.24" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="VBUS"/>
-<wire x1="10.16" y1="241.3" x2="30.48" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="246.38" x2="30.48" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="246.38" x2="30.48" y2="264.16" width="0.1524" layer="91"/>
 <junction x="30.48" y="264.16"/>
 </segment>

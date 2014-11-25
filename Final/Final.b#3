@@ -130,9 +130,9 @@
 <wire x1="58.09" y1="0" x2="58.09" y2="81.27" width="0" layer="20"/>
 <wire x1="58.09" y1="81.27" x2="0" y2="81.27" width="0" layer="20"/>
 <wire x1="0" y1="81.27" x2="0" y2="0" width="0" layer="20"/>
-<text x="45.72" y="15.24" size="1.778" layer="25" rot="R90">Solar Cell Phone Charger</text>
-<text x="49.53" y="40.64" size="1.778" layer="25" rot="R270">http://cutnop.github.io/
-Solar-USB-charger/</text>
+<text x="45.72" y="29.21" size="1.27" layer="25" rot="R90" align="center">Solar Phone Charger</text>
+<text x="52.07" y="29.21" size="1.27" layer="25" rot="R90" align="center">cutnop.github.io
+/Solar-USB-charger</text>
 </plain>
 <libraries>
 <library name="adafruit">
@@ -1963,7 +1963,6 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="J1" pad="GND"/>
 <contactref element="C1" pad="-"/>
 <contactref element="C2" pad="-"/>
-<contactref element="U3" pad="GND"/>
 <contactref element="R5" pad="1"/>
 <contactref element="R6" pad="1"/>
 <contactref element="R7" pad="1"/>
@@ -1983,7 +1982,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="11.43" y1="43.18" x2="13.97" y2="45.72" width="0.254" layer="1"/>
 <wire x1="13.97" y1="45.72" x2="15.24" y2="45.72" width="0.254" layer="1"/>
 <wire x1="15.24" y1="45.72" x2="17.78" y2="43.18" width="0.254" layer="1"/>
-<wire x1="5.19" y1="21.56" x2="6.38" y2="21.56" width="0.254" layer="1"/>
 <wire x1="6.38" y1="21.56" x2="7.62" y2="20.32" width="0.254" layer="1"/>
 <wire x1="7.62" y1="20.32" x2="7.62" y2="17.78" width="0.254" layer="1"/>
 <wire x1="7.62" y1="17.78" x2="5.08" y2="17.78" width="0.254" layer="1"/>
@@ -2095,14 +2093,16 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="35.6616" y1="58.293" x2="35.56" y2="58.42" width="0.254" layer="1"/>
 <wire x1="57.2262" y1="7.62" x2="57.2262" y2="47.0916" width="0.254" layer="1"/>
 <wire x1="57.2262" y1="47.0916" x2="49.5173" y2="47.0027" width="0.254" layer="1"/>
-<contactref element="U3" pad="MT1"/>
-<contactref element="U3" pad="MT2"/>
 <wire x1="4.28625" y1="16.98625" x2="3.81" y2="17.4625" width="0.1524" layer="1"/>
 <wire x1="3.81" y1="17.4625" x2="2.54" y2="18.7325" width="0.1524" layer="1"/>
-<wire x1="2.54" y1="18.7325" x2="2.54" y2="18.86" width="0.1524" layer="1"/>
-<wire x1="2.54" y1="26.51125" x2="2.54" y2="26.86" width="0.1524" layer="1"/>
 <wire x1="3.81" y1="25.24125" x2="2.54" y2="26.51125" width="0.1524" layer="1"/>
 <wire x1="3.81" y1="17.4625" x2="3.81" y2="25.24125" width="0.1524" layer="1"/>
+<contactref element="U3" pad="MT1"/>
+<contactref element="U3" pad="MT2"/>
+<contactref element="U3" pad="GND"/>
+<wire x1="2.54" y1="26.51125" x2="2.54" y2="26.86" width="0" layer="19" extent="1-1"/>
+<wire x1="2.54" y1="18.86" x2="2.54" y2="18.7325" width="0" layer="19" extent="1-1"/>
+<wire x1="5.19" y1="21.56" x2="6.38" y2="21.56" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC">
 <contactref element="D1" pad="C"/>

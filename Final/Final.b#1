@@ -130,9 +130,10 @@
 <wire x1="58.09" y1="0" x2="58.09" y2="81.27" width="0" layer="20"/>
 <wire x1="58.09" y1="81.27" x2="0" y2="81.27" width="0" layer="20"/>
 <wire x1="0" y1="81.27" x2="0" y2="0" width="0" layer="20"/>
-<text x="45.72" y="29.21" size="1.27" layer="25" rot="R90" align="center">Solar Phone Charger</text>
-<text x="52.07" y="29.21" size="1.27" layer="25" rot="R90" align="center">cutnop.github.io
-/Solar-USB-charger</text>
+<text x="44.45" y="29.21" size="1.27" layer="25" rot="R270" align="center">Solar Cell Phone Charger</text>
+<text x="46.99" y="29.21" size="1.27" layer="25" rot="R90" align="center">V2 Prototype</text>
+<text x="53.34" y="29.21" size="1.27" layer="25" rot="R90" align="center">http://cutnop.github.io
+/Solar-USB-charger/</text>
 </plain>
 <libraries>
 <library name="adafruit">

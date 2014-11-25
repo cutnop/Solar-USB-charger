@@ -15617,7 +15617,7 @@ at 27/07/2012 14:20:03</description>
 <part name="R17" library="adafruit" deviceset="R-US_" device="0207/10" value="24.9 kOhm"/>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
-<part name="R19" library="adafruit" deviceset="R-US_" device="0207/10" value="100 kOhm"/>
+<part name="R18" library="adafruit" deviceset="R-US_" device="0207/10" value="100 kOhm"/>
 <part name="C10" library="adafruit" deviceset="CPOL-US" device="E2.5-5" value="0.1 uF"/>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C11" library="adafruit" deviceset="CPOL-US" device="E2.5-5" value="150 uF"/>
@@ -15704,7 +15704,7 @@ at 27/07/2012 14:20:03</description>
 <instance part="R17" gate="G$1" x="134.62" y="55.88" rot="R270"/>
 <instance part="GND15" gate="1" x="134.62" y="43.18"/>
 <instance part="SUPPLY13" gate="G$1" x="177.8" y="71.12"/>
-<instance part="R19" gate="G$1" x="154.94" y="53.34"/>
+<instance part="R18" gate="G$1" x="154.94" y="53.34"/>
 <instance part="C10" gate="G$1" x="33.02" y="81.28"/>
 <instance part="GND16" gate="1" x="33.02" y="71.12"/>
 <instance part="C11" gate="G$1" x="142.24" y="88.9"/>
@@ -16172,7 +16172,7 @@ at 27/07/2012 14:20:03</description>
 <segment>
 <pinref part="SUPPLY13" gate="G$1" pin="5V"/>
 <wire x1="177.8" y1="53.34" x2="177.8" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="R19" gate="G$1" pin="2"/>
+<pinref part="R18" gate="G$1" pin="2"/>
 <wire x1="160.02" y1="53.34" x2="177.8" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -16250,7 +16250,7 @@ at 27/07/2012 14:20:03</description>
 <pinref part="U1" gate="A" pin="~FAULT1"/>
 <wire x1="129.54" y1="63.5" x2="142.24" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="63.5" x2="142.24" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="R19" gate="G$1" pin="1"/>
+<pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="53.34" x2="149.86" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
